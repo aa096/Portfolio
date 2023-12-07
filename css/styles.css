@@ -1,0 +1,45 @@
+@font-face { 
+    font-family: "Aileron";
+    src: url("../Fonts/Aileron-Regular-webfont.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face { 
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+body {
+    font-family: "Aileron", Courier, monospace;
+    background-color: #B1AA9D;
+    background-image: url("../Images/portfolio\(2\).png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", Courier, monospace;
+    letter-spacing: 3px;
+    color: #6F6C67;
+}
+
+.projects {
+    display: flex;
+    justify-content: right;
+    flex-flow: column wrap;
+    margin: 40px 40px 40px auto;
+    width: 500px;
+}
+
+.project {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 20px;
+    border-radius: 20px;
+}
