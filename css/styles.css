@@ -13,6 +13,8 @@
 body {
     font-family: "Aileron", Courier, monospace;
     background-color: #B1AA9D;
+    display: flex;
+    justify-content: center;
     background-image: url("../Images/portfolio\(2\).png");
     background-attachment: fixed;
     background-size: cover;
@@ -49,10 +51,10 @@ h1 {
 .project {
     background-color: #fff;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    margin: 20px;
+    margin: 2dvb;
     border-radius: 20px;
     padding: 20px;
     z-index: 999;
@@ -130,6 +132,10 @@ button:hover {
 }
 
 @media (min-width: 1200px) {
+    body {
+        justify-content: right;
+    }
+
     h1 {
         top: 49%;
         right: 80.4%;
