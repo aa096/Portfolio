@@ -18,6 +18,7 @@ body {
     background-image: url("../Images/portfolio\(2\).png");
     background-attachment: fixed;
     background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 20px;
 }
@@ -85,6 +86,10 @@ button:hover {
 }
 
 @media (min-width: 600px) {
+    body {
+        background-image: url("../Images/portfolio\(2\).png");
+    }
+
     .projects {
         justify-content: center;
         margin-top: 140px;
