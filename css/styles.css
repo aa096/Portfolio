@@ -26,13 +26,15 @@ body {
 p {
     text-align: left;
     color: #6F6C67;  
+    padding-bottom: 10px;
 }
 
 .color {
     text-align: center;
     color: #514b47;
-    font-weight: 550;
+    font-weight: 570;
     font-family: "Montserrat", Courier, monospace;
+    padding-bottom: 10px;
 }
 
 .title {
@@ -47,6 +49,7 @@ h2, h3, h4 {
     letter-spacing: 3px;
     color: #6F6C67;
     font-size: 18px;
+    margin-bottom: 7px;
 }
 
 h1 {
@@ -98,6 +101,7 @@ button {
     margin-left: 10px;
     color: #231F1F;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 button:hover {
@@ -177,8 +181,8 @@ button:hover {
 
 @media (min-width: 1200px) {
     h1 {
-        top: 58%;
-        right: 80%;
+        top: 52%;
+        right: 78%;
     }
 
     .projects {
@@ -208,7 +212,7 @@ button:hover {
 
 @media (min-width: 1360px) {
     h1 {
-        top: 65%;
+        top: 59%;
         right: 80%;
     }
 
